@@ -1,0 +1,14 @@
+go version go1.22.3 linux/amd64
+
+Number of CPUs: 4
+GOMAXPROCS: 4
+
+ = Three Way Merge Sort - Size: 1000 - Total Elapsed Time: 83 µs - Total Used Memory: 55912 bytes
+ = Three Way Merge Sort - Size: 10000 - Total Elapsed Time: 964 µs - Total Used Memory: 737088 bytes
+ = Three Way Merge Sort - Size: 100000 - Total Elapsed Time: 10615 µs - Total Used Memory: 9060784 bytes
+ = Three Way Merge Sort - Size: 1000000 - Total Elapsed Time: 114214 µs - Total Used Memory: 109763520 bytes
+ = Concurrent Three Way Merge Sort - Size: 1000 - Total Elapsed Time: 93 µs - Total Used Memory: 55904 bytes
+ = Concurrent Three Way Merge Sort - Size: 10000 - Total Elapsed Time: 459 µs - Total Used Memory: 738624 bytes
+ = Concurrent Three Way Merge Sort - Size: 100000 - Total Elapsed Time: 6328 µs - Total Used Memory: 9070256 bytes
+ = Concurrent Three Way Merge Sort - Size: 1000000 - Total Elapsed Time: 45187 µs - Total Used Memory: 109822816 bytes
+        OK

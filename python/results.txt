@@ -1,0 +1,57 @@
+Python 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)] on win32
+
+-- Veri Seti Boyutu: 1000 - Süre: 0.540200 ms - Kullanılan Bellek: 48.000000 KB
+-- Veri Seti Boyutu: 1000 - Süre: 0.628100 ms - Kullanılan Bellek: 0.000000 KB
+-- Veri Seti Boyutu: 1000 - Süre: 0.442200 ms - Kullanılan Bellek: 44.000000 KB
+-- Veri Seti Boyutu: 1000 - Süre: 0.446700 ms - Kullanılan Bellek: 0.000000 KB
+-- Veri Seti Boyutu: 1000 - Süre: 0.431700 ms - Kullanılan Bellek: 4.000000 KB
+== Veri Seti Boyutu: 1000 - Ortalama Süre: 0.497780ms - Ortalama Kullanılan Bellek: 19.200000KB
+
+-- Veri Seti Boyutu: 10000 - Süre: 4.250900 ms - Kullanılan Bellek: 288.000000 KB
+-- Veri Seti Boyutu: 10000 - Süre: 4.293400 ms - Kullanılan Bellek: 4.000000 KB
+-- Veri Seti Boyutu: 10000 - Süre: 4.391300 ms - Kullanılan Bellek: 4.000000 KB
+-- Veri Seti Boyutu: 10000 - Süre: 4.435900 ms - Kullanılan Bellek: 4.000000 KB
+-- Veri Seti Boyutu: 10000 - Süre: 4.730800 ms - Kullanılan Bellek: 0.000000 KB
+== Veri Seti Boyutu: 10000 - Ortalama Süre: 4.420460ms - Ortalama Kullanılan Bellek: 60.000000KB
+
+-- Veri Seti Boyutu: 100000 - Süre: 46.933900 ms - Kullanılan Bellek: -68.000000 KB
+-- Veri Seti Boyutu: 100000 - Süre: 47.420700 ms - Kullanılan Bellek: 404.000000 KB
+-- Veri Seti Boyutu: 100000 - Süre: 49.074200 ms - Kullanılan Bellek: 632.000000 KB
+-- Veri Seti Boyutu: 100000 - Süre: 48.074800 ms - Kullanılan Bellek: 376.000000 KB
+-- Veri Seti Boyutu: 100000 - Süre: 47.873800 ms - Kullanılan Bellek: 404.000000 KB
+== Veri Seti Boyutu: 100000 - Ortalama Süre: 47.875480ms - Ortalama Kullanılan Bellek: 349.600000KB
+
+-- Veri Seti Boyutu: 1000000 - Süre: 545.571600 ms - Kullanılan Bellek: 7840.000000 KB
+-- Veri Seti Boyutu: 1000000 - Süre: 545.884800 ms - Kullanılan Bellek: 7904.000000 KB
+-- Veri Seti Boyutu: 1000000 - Süre: 542.852800 ms - Kullanılan Bellek: 7884.000000 KB
+-- Veri Seti Boyutu: 1000000 - Süre: 544.120900 ms - Kullanılan Bellek: 7908.000000 KB
+-- Veri Seti Boyutu: 1000000 - Süre: 554.812100 ms - Kullanılan Bellek: 7904.000000 KB
+== Veri Seti Boyutu: 1000000 - Ortalama Süre: 546.648440ms - Ortalama Kullanılan Bellek: 7888.000000KB
+
+
+===============================================================================================
+
+-- Veri Seti Boyutu: 1000 - Süre: 432.100000 µs - Kullanılan Bellek: 0.000000 KB
+-- Veri Seti Boyutu: 1000 - Süre: 505.100000 µs - Kullanılan Bellek: 0.000000 KB
+-- Veri Seti Boyutu: 1000 - Süre: 509.700000 µs - Kullanılan Bellek: 0.000000 KB
+-- Veri Seti Boyutu: 1000 - Süre: 421.100000 µs - Kullanılan Bellek: 0.000000 KB
+-- Veri Seti Boyutu: 1000 - Süre: 462.000000 µs - Kullanılan Bellek: 0.000000 KB
+== Veri Seti Boyutu: 1000 - Ortalama Süre: 466.000000µs - Ortalama Kullanılan Bellek: 0.000000KB
+-- Veri Seti Boyutu: 10000 - Süre: 4521.900000 µs - Kullanılan Bellek: 249856.000000 KB
+-- Veri Seti Boyutu: 10000 - Süre: 4567.200001 µs - Kullanılan Bellek: 4096.000000 KB
+-- Veri Seti Boyutu: 10000 - Süre: 4361.200000 µs - Kullanılan Bellek: 0.000000 KB
+-- Veri Seti Boyutu: 10000 - Süre: 4430.800000 µs - Kullanılan Bellek: 0.000000 KB
+-- Veri Seti Boyutu: 10000 - Süre: 4533.200000 µs - Kullanılan Bellek: 0.000000 KB
+== Veri Seti Boyutu: 10000 - Ortalama Süre: 4482.860000µs - Ortalama Kullanılan Bellek: 50790.400000KB
+-- Veri Seti Boyutu: 100000 - Süre: 48164.800000 µs - Kullanılan Bellek: 311296.000000 KB
+-- Veri Seti Boyutu: 100000 - Süre: 48802.200000 µs - Kullanılan Bellek: 573440.000000 KB
+-- Veri Seti Boyutu: 100000 - Süre: 48592.800000 µs - Kullanılan Bellek: 12288.000000 KB
+-- Veri Seti Boyutu: 100000 - Süre: 47762.500000 µs - Kullanılan Bellek: 118784.000000 KB
+-- Veri Seti Boyutu: 100000 - Süre: 48088.500001 µs - Kullanılan Bellek: -143360.000000 KB
+== Veri Seti Boyutu: 100000 - Ortalama Süre: 48282.160000µs - Ortalama Kullanılan Bellek: 174489.600000KB
+-- Veri Seti Boyutu: 1000000 - Süre: 573837.400000 µs - Kullanılan Bellek: 8028160.000000 KB
+-- Veri Seti Boyutu: 1000000 - Süre: 573335.200000 µs - Kullanılan Bellek: 8028160.000000 KB
+-- Veri Seti Boyutu: 1000000 - Süre: 558019.900000 µs - Kullanılan Bellek: 8032256.000000 KB
+-- Veri Seti Boyutu: 1000000 - Süre: 553313.200000 µs - Kullanılan Bellek: 8052736.000000 KB
+-- Veri Seti Boyutu: 1000000 - Süre: 561998.300001 µs - Kullanılan Bellek: 8019968.000000 KB
+== Veri Seti Boyutu: 1000000 - Ortalama Süre: 564100.800000µs - Ortalama Kullanılan Bellek: 8032256.000000KB
