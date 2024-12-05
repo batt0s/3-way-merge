@@ -1,0 +1,37 @@
+	Tue Dec  3 18:27 2024 Time and Allocation Profiling Report  (Final)
+
+	   threeWay-exe +RTS -N -p -h -RTS
+
+	total time  =        0.00 secs   (6 ticks @ 1000 us, 4 processors)
+	total alloc =     210,528 bytes  (excludes profiling overheads)
+
+COST CENTRE  MODULE           SRC                         %time %alloc
+
+MAIN         MAIN             <built-in>                   66.7   27.8
+CAF          GHC.Event.Thread <entire-module>              33.3    0.3
+measureTime  Main             app/Main.hs:(35,1)-(41,42)    0.0    2.2
+main.runTest Main             app/Main.hs:(51,5)-(54,71)    0.0   28.9
+CAF          GHC.IO.Handle.FD <entire-module>               0.0   16.5
+CAF          GHC.IO.Encoding  <entire-module>               0.0    1.2
+CAF          GHC.Float        <entire-module>               0.0   22.0
+
+
+                                                                                                           individual      inherited
+COST CENTRE              MODULE                              SRC                        no.     entries  %time %alloc   %time %alloc
+
+MAIN                     MAIN                                <built-in>                 200           0   66.7   27.8   100.0  100.0
+ CAF                     GHC.Conc.Signal                     <entire-module>            359           0    0.0    0.3     0.0    0.3
+ CAF                     GHC.Event.Poll                      <entire-module>            344           0    0.0    0.0     0.0    0.0
+ CAF                     GHC.Event.Thread                    <entire-module>            343           0   33.3    0.3    33.3    0.3
+ CAF                     GHC.Float                           <entire-module>            336           0    0.0   22.0     0.0   22.0
+ CAF                     GHC.IO.Encoding                     <entire-module>            324           0    0.0    1.2     0.0    1.2
+ CAF                     GHC.IO.Encoding.Iconv               <entire-module>            322           0    0.0    0.1     0.0    0.1
+ CAF                     GHC.IO.Handle.FD                    <entire-module>            313           0    0.0   16.5     0.0   16.5
+ CAF                     Data.Time.Clock.Internal.SystemTime <entire-module>            250           0    0.0    0.0     0.0    0.0
+ CAF:main1               Main                                <no location info>         244           0    0.0    0.0     0.0    0.0
+  main                   Main                                app/Main.hs:(45,1)-(54,71) 400           1    0.0    0.0     0.0    0.0
+   main.sizes            Main                                app/Main.hs:46:9-46        401           1    0.0    0.0     0.0    0.0
+ main                    Main                                app/Main.hs:(45,1)-(54,71) 402           0    0.0    0.0     0.0   31.9
+  main.runTest           Main                                app/Main.hs:(51,5)-(54,71) 403           4    0.0   28.9     0.0   31.9
+   measureTime           Main                                app/Main.hs:(35,1)-(41,42) 404           4    0.0    2.2     0.0    3.0
+    measureTime.duration Main                                app/Main.hs:40:9-48        405           4    0.0    0.8     0.0    0.8
