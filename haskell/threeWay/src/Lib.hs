@@ -1,5 +1,6 @@
 module Lib
-    ( threeWayMergeSort
+    ( threeWayMergeSort,
+      randomList
     ) where
 
 import System.Random (randomRIO)
@@ -13,10 +14,7 @@ merge [] [] right = right
 merge left middle [] = mergeTwo left middle
 merge left [] right = mergeTwo left right
 merge [] middle right = mergeTwo middle right
-merge (l:ls) (m:ms) (r:rs)
-  | l <= m && l <= r = l : merge ls (m:ms) (r:rs)
-  | m <= l && m <= r = m : merge (l:ls) ms (r:rs)
-  | otherwise = r : merge (l:ls) (m:ms) rs
+merge left middle right = mergeTwo (mergeTwo left middle) right
 
 -- Merge function to merge two sorted lists
 mergeTwo :: Ord a => [a] -> [a] -> [a]

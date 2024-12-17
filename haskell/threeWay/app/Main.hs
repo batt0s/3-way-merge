@@ -8,7 +8,7 @@ import Data.Time.Clock (getCurrentTime, diffUTCTime)
 -- Function to measure time
 measureTime :: Int -> IO Double
 measureTime size = do
-    let arr = take size [1..]  -- Create a list of size 'size'
+    arr <- randomList size  -- Create a list of size 'size'
     startTime <- getCurrentTime  -- Start time
     let sortedArr = threeWayMergeSort arr  -- Sort the array
     endTime <- getCurrentTime  -- End time

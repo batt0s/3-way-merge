@@ -77,7 +77,7 @@ Algoritma ve testler en optimize halinde olmayabilir. Kullanılan kodlar https:/
 | Go              | 964 µs    | 10615 µs   | 114214 µs   |
 | Go (Concurrent) | 459 µs    | 6328 µs    | 45187 µs    |
 
-<img src="file:///C:/Users/kerem/OneDrive/Masaüstü/3%20way%20merge/Figure_2%20(time).png" title="" alt="Figure_2 (time).png" data-align="center">
+<img src="https://i.imgur.com/q70ziW8.png" title="" alt="Figure_2 (time).png" data-align="center">
 
 ### Bellek Karşılaştırmaları
 
@@ -88,7 +88,7 @@ Algoritma ve testler en optimize halinde olmayabilir. Kullanılan kodlar https:/
 | Go              | 737088 bytes  | 9060784 bytes  | 109763520 bytes |
 | Go (Concurrent) | 738624 bytes  | 9070256 bytes  | 109822816 bytes |
 
-<img src="file:///C:/Users/kerem/OneDrive/Masaüstü/3%20way%20merge/Figure_1%20(mems).png" title="" alt="Figure_1 (mems).png" data-align="center">
+<img src="https://i.imgur.com/ALGfy1w.png" title="" alt="Figure_1 (mems).png" data-align="center">
 
 ## Sonuç
 
